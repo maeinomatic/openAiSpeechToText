@@ -1,6 +1,10 @@
 # openAiSpeechToText
-record audio with the microphone and get a transcription of it from openai
+record audio with the microphone and get a transcription from openai
 
-add a text file "openai_api_key.txt" to the scripts folder and paste your openai api key into it.
+**before you begin:** Add a text file "openai_api_key.txt" to the scripts folder and paste your openai api key into it.
 
-you need an openai account to use this.
+*Alternatively, if you have the api key already in your environment variables you can change line 19 to:*
+
+```openai.api_key = os.getenv("OPENAI_API_KEY")```
+
+**You need an openai account to use this.**
