@@ -1,4 +1,4 @@
-# openAiSpeechToText
+# openAiSpeechToText (outdated, this project was for GPT 3)
 record audio with the microphone and get a transcription from openai
 
 **before you begin:** Add a text file "openai_api_key.txt" to the scripts folder and paste your openai api key into it.
